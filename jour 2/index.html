@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="partie" class = "sombre">
+        <header>
+            <button id="bouton" class="bouton_sombre">MODE SOMBRE OU CLAIR</button>
+        </header>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">A<img src="L'Officiel-Levant, February Issue 62.jpeg"></div>
+            <div class="swiper-slide">B<img src="JESSICA WALSH (1).jpeg"></div>
+            <div class="swiper-slide">C<img src="aed07fe6-adc7-49be-956b-12dc80268cb8.jpeg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>
